@@ -1,4 +1,4 @@
-package info.sanaebadi.retrofit;
+package info.sanaebadi.retrofit.model;
 
 import java.util.List;
 import com.google.gson.annotations.SerializedName;
@@ -16,11 +16,4 @@ public class CityModel{
 		return cityModel;
 	}
 
-	@Override
- 	public String toString(){
-		return 
-			"CityModel{" + 
-			"cityModel = '" + cityModel + '\'' + 
-			"}";
-		}
 }
